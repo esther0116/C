@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
 
-void main(int &num1,int &num2){
+void swap(int &num1,int &num2){
     int tmp=num1;
     num1=num2;
     num2=tmp;
 }
 
-void main(void){
+void swap(void){
     int n1=10;
     int n2=20;
 
